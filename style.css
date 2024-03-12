@@ -1,0 +1,24 @@
+.box{
+    width: 700px;
+    height: 400px;
+    background-color: darkgreen;
+    position: relative;
+}
+.child-box{
+    background-color: yellowgreen;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    animation: squareLoop 1s;
+    
+}
+@keyframes squareLoop {
+    from {
+        top: 0;
+        left: 0;
+    }
+    to{
+        bottom: 0;
+        right: 0;
+    }
+}
